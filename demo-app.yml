@@ -1,16 +1,22 @@
-name: Pradeep
+spring:
+  application:
+    name: demo-app  
+    
+server:
+  port: 8080
+
+security.enabled-csrf: false
 
 security:
-  basic:
-    enabled: false
-
-management:
-  security:
+   basic:
     enabled: false
 
 logging:
   level:
-    io:
-      pivotal: DEBUG
+    root: INFO
 
-port: 8080
+management:
+  security:
+    enabled: false 
+    
+name : Pradeep
