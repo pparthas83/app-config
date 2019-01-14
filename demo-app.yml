@@ -2,11 +2,11 @@ name: Pradeep
 
 security:
   basic:
-    enabled: false
+    enable: false
 
 management:
   security:
-    enabled: false
+    enable: false
 
 logging:
   level:
