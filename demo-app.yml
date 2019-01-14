@@ -1,16 +1,6 @@
-spring:
-  application:
-    name: demo-app  
-
-security
-  ignored: /** 
- 
 security:
    basic:
     enabled: false
 
-management:
-  security:
-    enabled: false 
-    
+
 name : Pradeep
