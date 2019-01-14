@@ -1,7 +1,9 @@
 spring:
   application:
     name: demo-app  
-    
+
+security.ignored=/** 
+ 
 security:
    basic:
     enabled: false
