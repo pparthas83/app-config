@@ -1,2 +1,5 @@
 name: Pradeep
 security.basic.enable: false
+management:
+  security:
+    enabled: false 
