@@ -2,5 +2,8 @@ security:
    basic:
     enabled: false
 
-
-name : ToBeFatherAditya
+management:
+   security:
+      enabled: false
+      
+name : NastyAditya
