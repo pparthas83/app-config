@@ -6,4 +6,4 @@ management:
    security:
       enabled: false
       
-name : Pradeep
+name : Pivotal
